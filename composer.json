@@ -30,11 +30,11 @@
         "symfony/doctrine-bridge": "~2.2",
         "symfony/framework-bundle": "~2.2",
         "sonata-project/exporter": "~1.3,>=1.3.1",
-        "grigoryangeo/admin-bundle": "dev-sf"
+        "grigoryangeo/admin-bundle": "dev-sf2.8"
     },
     "require-dev": {
         "simplethings/entity-audit-bundle": "~0.1",
-        "grigoryangeo/admin-bundle": "~2.2@dev"
+        "grigoryangeo/admin-bundle": "dev-sf2.8"
     },
     "suggest": {
         "simplethings/entity-audit-bundle": "If you want to support for versioning of entities and their associations."
