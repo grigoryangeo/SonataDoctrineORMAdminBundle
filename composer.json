@@ -1,5 +1,5 @@
 {
-    "name": "sonata-project/doctrine-orm-admin-bundle",
+    "name": "grigoryangeo/doctrine-orm-admin-bundle",
     "type": "symfony-bundle",
     "description": "Symfony Sonata / Integrate Doctrine ORM into the SonataAdminBundle",
     "keywords": ["Admin Generator", "admin", "sonata", "bootstrap", "generator"],
@@ -16,9 +16,15 @@
             "homepage": "https://github.com/sonata-project/SonataDoctrineORMAdminBundle/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/grigoryangeo/SonataAdminBundle"
+        }
+    ],
     "require": {
         "doctrine/orm": "~2.3",
-        "sonata-project/admin-bundle": "~2.2,>=2.2.2",
+        "grigoryangeo/admin-bundle": "dev-sf2.8",
         "symfony/symfony": "~2.2",
         "sonata-project/core-bundle": "~2.2@dev"
     },
